@@ -29,10 +29,46 @@
 -   The application will be available on the **Port 3000** and the backend most probably will be running on **Port 8000**.
 
 ### Below are the ER diagram models of the Yoga User and the Yoga Payment
+<p align="center">
+  <img align="center" height="180em" src="https://user-images.githubusercontent.com/60578902/207037652-9935fb51-9b1f-42a3-93e5-613a8985f923.jpg" />
+ </p>
+ <p align="center">Yoga User</p>
+ <br>
+ <br>
+ <p align="center">
+  <img align="center" height="180em" src="https://user-images.githubusercontent.com/60578902/207037672-1fdf2de2-1ce3-47b2-a6a8-163e66d41a26.jpg" />
+ </p>
+ <p align="center">Yoga Payments</p>
+ <br>
+ <br>
+ <p align="center">
+  <img align="center" height="180em" src="https://user-images.githubusercontent.com/60578902/207037680-6795afb3-a8b2-496a-8662-c407726933f1.jpg" />
+ </p>
+ <p align="center">Yoga Forever</p>
+ <br>
+ <br>
 
 
 ### Application Screenshots
-
+<p align="center">
+  <img width="926" alt="image" src="https://user-images.githubusercontent.com/60578902/207039489-8493e778-3e54-4349-81c6-2ed7191ea12f.png">
+ </p>
+ <p align="center">Admission Form</p>
+ <br>
+ <br>
+ <p align="center">
+  <img width="926" alt="image" src="https://user-images.githubusercontent.com/60578902/207039726-33f43913-9424-4cc9-895c-af72b7c18b2b.png">
+ </p>
+ <p align="center">Payment</p>
+ <br>
+ <br>
+ <p align="center">
+  <img width="926" alt="image" src="https://user-images.githubusercontent.com/60578902/207039881-1abac12a-3da8-4f52-9d3d-93d616e4734f.png">
+ </p>
+ <p align="center">Payment Completed</p>
+ <br>
+ <br>
+ 
 ### Technologies used in this Project are
 
 -   **[React](https://reactjs.org/)** : React is a free and open-source front-end JavaScript library for building user interfaces based on UI components
