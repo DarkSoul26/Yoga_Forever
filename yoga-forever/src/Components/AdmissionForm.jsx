@@ -104,7 +104,7 @@ function AdmissionForm() {
         onChange={(e) => setStartDate(e.target.value)}
       />
       <div className="batchTiming">
-        <h>Select batch timing:</h>
+        <h>Available Batch Timings</h>
         <div className="batchOptions">
           <div>
             <input
@@ -114,7 +114,7 @@ function AdmissionForm() {
               value="1"
               onChange={(e) => setBatchNumber(e.target.value)}
             />
-            <label for="first">6 AM-7 AM</label>
+            <label for="first">6 AM - 7 AM</label>
             <br />
           </div>
           <div>
@@ -125,7 +125,7 @@ function AdmissionForm() {
               value="2"
               onChange={(e) => setBatchNumber(e.target.value)}
             />
-            <label for="second">7 AM-8 AM</label>
+            <label for="second">7 AM - 8 AM</label>
             <br />
           </div>
           <div>
@@ -136,7 +136,7 @@ function AdmissionForm() {
               value="3"
               onChange={(e) => setBatchNumber(e.target.value)}
             />
-            <label for="third">8 AM-9 AM</label>
+            <label for="third">8 AM - 9 AM</label>
           </div>
           <div>
             <input
@@ -146,7 +146,7 @@ function AdmissionForm() {
               value="4"
               onChange={(e) => setBatchNumber(e.target.value)}
             />
-            <label for="fourth">5 PM-6 PM</label>
+            <label for="fourth">5 PM - 6 PM</label>
           </div>
         </div>
       </div>
