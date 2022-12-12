@@ -5,6 +5,8 @@
 -   Database uses **MongoDB** which is a NoSQL database.
 -   Backend is made using **NodeJS** to provide robust functionalities.
 -   All the services are bind together using custom APIs.
+-   Distributed microservice architecture for high scalability.
+-   Each of the three services has its own docker image for high performance.
 
 ## Important Assumptions
 
@@ -20,6 +22,7 @@
 
 ## Setup Instructions
 
+### Version 1
 -   Clone the project from github.
 -   Contact me for the env file details: sanchitkalsi@gmail.com.
 -   Go into the **yoga-forever** directory and run `npm install`.
@@ -27,6 +30,12 @@
 -   Similarly, go into the **yoga-forever-backend** directory and run `npm install`.
 -   And, start the backend server using the command `node app`.
 -   The application will be available on the **Port 3000** and the backend most probably will be running on **Port 8000**.
+
+### Version 2
+-   Clone the project from github.
+-   Contact me for the env file details: sanchitkalsi@gmail.com.
+-   Run the command `docker-compose up` to start the application.
+-   Run the command `docker-compose down` to close the application.
 
 ### Below are the ER diagram models of the Yoga User and the Yoga Payment
 <p align="center">
