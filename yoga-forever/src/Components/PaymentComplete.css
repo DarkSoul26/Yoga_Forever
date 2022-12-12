@@ -1,0 +1,49 @@
+.completionContainer {
+  border: 2px solid black;
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  width: 35vw;
+  margin: auto;
+  position: relative;
+  background-color: aliceblue;
+  top: 1vh;
+  align-items: center;
+  box-shadow: 5px 10px #c4c3c3;
+}
+
+.completionContainer > img {
+  width: 150px;
+  height: 150px;
+}
+
+.completionContainer > h {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.completionContainer .completed {
+  margin: 5%;
+  height: 90%;
+}
+
+.completionContainer > button {
+  margin: 30px auto;
+  transition: 0.3s;
+  height: 50px;
+  width: 35%;
+  box-shadow: 2.5px 5px #cbcbcb;
+  border-radius: 20px;
+}
+
+.completionContainer > button:hover {
+  color: white;
+  background-color: black;
+}
+
+.completionContainer .details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 18px;
+}
