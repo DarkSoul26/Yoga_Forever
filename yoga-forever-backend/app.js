@@ -10,8 +10,9 @@ const paymentRoute = require("./Routes/paymentRoute");
 require("dotenv").config();
 
 //Setup database entities
-const MONGO_DB = `mongodb+srv://${process.env.MONGO_ADMIN}:${process.env.MONGO_PASS}@cluster0.96jy1.mongodb.net/?retryWrites=true&w=majority`;
+// const MONGO_DB = `mongodb+srv://${process.env.MONGO_ADMIN}:${process.env.MONGO_PASS}@cluster0.96jy1.mongodb.net/?retryWrites=true&w=majority`;
 
+const MONGO_DB = `mongodb://mongo:27017/yogaForever`;
 //Middleware
 app.use(cors());
 app.use(express.json());
