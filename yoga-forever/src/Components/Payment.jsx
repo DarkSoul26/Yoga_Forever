@@ -9,11 +9,13 @@ function Payment() {
   const [expDate, setExpCard] = useState("");
   const [accountNo, setAccountNo] = useState("");
   const [IFSCCode, setIfscCode] = useState("");
+  // eslint-disable-next-line no-restricted-globals
+  const hostname = location.hostname;
 
   //Implement the CompletePayment function as provided
   const CompletePayment = () => {
     //Store the data on database by calling the REST API
-    fetch("http://localhost:8000/payment", {
+    fetch("http://" + hostname + ":8000/payment", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

@@ -8,7 +8,8 @@ function AdmissionForm() {
   const [phone, setPhone] = useState("");
   const [startDate, setStartDate] = useState("");
   const [batchNumber, setBatchNumber] = useState();
-
+  // eslint-disable-next-line no-restricted-globals
+  const hostname = location.hostname;
   useEffect(() => {
     localStorage.clear();
   }, []);
@@ -26,7 +27,7 @@ function AdmissionForm() {
       startDate.substr(0, 4);
 
     //Store the data on the database by calling the REST API
-    fetch("http://localhost:8000/user", {
+    fetch("http://"+hostname+":8000/user", {
       method: "post",
       headers: {
         "Content-Type": "application/json",
